@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs";
 import AboutNumbers from "./AboutNumbers";
 import VisualLook from "./VisualLook";
 import Quote from "./Quote";
+import Links from "./Links";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutNumbers />
       <VisualLook />
       <Quote />
+      <Links />
     </div>
   );
 }
