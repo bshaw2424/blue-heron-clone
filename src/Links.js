@@ -5,7 +5,7 @@ const Links = () => {
     <section className="community-link-section">
       <ul className="link-container">
         <li className="community-link community-link-1">
-          <a href="/">
+          <a href="https://bit.ly/3MBA764">
             <span className="link-icon">
               <img src="https://bit.ly/3vRmVnN" alt="" />
             </span>
@@ -13,7 +13,7 @@ const Links = () => {
           </a>
         </li>
         <li className="community-link community-link-2">
-          <a href="/">
+          <a href="https://bit.ly/3Kwh8Iy">
             <span className="link-icon">
               <img src="https://bit.ly/361y6j1" alt="" />
             </span>
@@ -21,7 +21,7 @@ const Links = () => {
           </a>
         </li>
         <li className="community-link community-link-3">
-          <a href="/">
+          <a href="https://bit.ly/3w6Owld">
             <span className="link-icon">
               <img src="https://bit.ly/36173V0" alt="" />
             </span>
