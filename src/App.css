@@ -1,11 +1,11 @@
 /* navigation */
 .nav {
   padding: 1.5rem 0;
-  /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%); */
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
-  background: transparent;
   width: 100%;
   z-index: 1;
 }
@@ -27,7 +27,7 @@
 .nav ul li {
   list-style: none;
   margin-right: 2rem;
-  color: white;
+  color: #333;
   text-transform: capitalize;
 }
 
