@@ -1,26 +1,26 @@
 import React from "react";
 
-const QuoteSlideFour = ({ slideTitle, name, quote }) => {
+const QuoteSlideFour = () => {
   return (
-    <div class="carousel-item">
-      <span>{slideTitle}</span>
-      <p>{quote}</p>{" "}
-      <div>
-        <span>{name}</span>
+    <div className="quote-slide quote-slide-4 carousel-item">
+      <div className="slide-container">
+        <div>
+          <span className="slide-title">Where life becomes living </span>
+          <p>
+            When the warm evenings arrive, we love to open up [our Blue Heron
+            Home]. We have dinner on our rooftop deck during sunset when The
+            Strip lights begin to illuminate the sky.
+          </p>
+          <div className="brand-information">
+            <img src="https://bit.ly/3sPotwB" className="brand-image" alt="" />
+            <span>chris emanuel</span>
+          </div>
+        </div>
         <img
-          className="brand"
-          src="https://bit.ly/3ClPhHS"
-          alt="Chris Emanuel"
+          src="https://bit.ly/3HPIuHH"
+          alt="Slide four"
+          className="d-block w-100 image-4"
         />
-      </div>
-      <div>
-        <span>
-          <img
-            class="d-block w-100"
-            src="https://bit.ly/35wVFAp"
-            alt="Fourth slide"
-          />
-        </span>
       </div>
     </div>
   );

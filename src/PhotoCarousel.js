@@ -1,21 +1,10 @@
 import React from "react";
+import Description from "./Description";
 
-const Description = ({ title }) => {
+const PhotoCarousel = () => {
   return (
     <section className="description-section">
-      <div className="description-container">
-        <h2>{title}</h2>
-        <div className="description description-1">
-          Blue Heron is a design-led development firm that accentuates
-          aspirational living through personalized Home experiences.
-        </div>
-        <div className="description description-2">
-          Blue Heron Homes turn life into living. We design Homes that enhance
-          the natural beauty of their surroundings while generating organic
-          connections with its environment. Every BH house is an everlasting
-          Home.
-        </div>
-      </div>
+      <Description title="blue heron homes" />
       <div
         id="carouselExampleControls"
         className="carousel slide"
@@ -25,28 +14,28 @@ const Description = ({ title }) => {
           <div className="description_carousel--images carousel-item active">
             <img
               src="https://bit.ly/3hLgI4p"
-              alt=""
+              alt="Slide one"
               className="carousel-images d-block w-100 image-1"
             />
           </div>
           <div className="description_carousel--images carousel-item">
             <img
               src="https://bit.ly/3vZVN6j"
-              alt=""
+              alt="Slide two"
               className="carousel-images d-block w-100 image-2"
             />
           </div>
           <div className="description_carousel--images carousel-item">
             <img
               src="https://bit.ly/3pEzG1e"
-              alt=""
+              alt="Slide three"
               className="carousel-images d-block w-100 image-3"
             />
           </div>
           <div className="description_carousel--images carousel-item">
             <img
               src="https://bit.ly/3HPIuHH"
-              alt=""
+              alt="Slide four"
               className="carousel-images d-block w-100 image-4"
             />
           </div>
@@ -74,4 +63,4 @@ const Description = ({ title }) => {
   );
 };
 
-export default Description;
+export default PhotoCarousel;

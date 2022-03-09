@@ -156,6 +156,7 @@
 .carousel-item {
   height: 100%;
 }
+
 .carousel-control-prev,
 .carousel-control-next {
   display: flex;
@@ -331,11 +332,55 @@
 
 /* quote section */
 .quote-section {
-  outline: 15px solid green;
-  height: 40vh;
-  margin-top: 1rem;
+  outline: 8px solid red;
+}
+.quote-slide-2 {
+  display: none;
+}
+.carousel-item .slide-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.carousel {
+.slide-container div .slide-title {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+  color: #9b9b9b;
+  font-weight: 500;
+}
+
+.slide-container div {
+  align-items: center;
+  padding: 6rem 0 4rem 12rem;
+}
+.slide-container div .brand-information {
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+.slide-container div p {
+  color: #0f2c4e;
+  font-size: 1.3rem;
+  max-width: 70%;
+  position: relative;
+}
+.slide-container div::before {
+  content: "“";
+  position: absolute;
+  top: 3rem;
+  left: 7.5rem;
+  color: #8ac0de;
+  font-size: 9.5rem;
+}
+.slide-container div .brand-information img {
+  height: 40px;
+  width: 40px;
+  margin-right: 1rem;
+}
+.slide-container div .brand-information span {
+  display: inline-block;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }

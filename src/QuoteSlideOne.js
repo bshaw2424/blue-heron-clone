@@ -1,24 +1,28 @@
 import React from "react";
 
-const QuoteSlideOne = ({ slideTitle, name, quote }) => {
+const QuoteSlideOne = () => {
   return (
-    <div class="carousel-item active">
-      <span className="slide-title">{slideTitle}</span>
-      <p>{quote}</p>
-      <div>
-        <span>
-          <img
-            src="https://blueheron.com/wp-content/uploads/2020/12/Icon-Full-Color-RGB-BH-Logo-Branding-150x154.png"
-            alt="Eileen Moore"
-          />
-        </span>
-        <span>{name}</span>
+    <div className="quote-slide quote-slide-1 carousel-item active">
+      <div className="slide-container">
+        <div>
+          <span className="slide-title">the blue heron process</span>
+          <p>
+            Designing our Blue Heron Home was an enjoyable process – from the
+            selections to the build, everything was top quality, including the
+            base options. We’re blown away by the overall beauty of the Home,
+            truly modern desert elegance.
+          </p>
+          <div className="brand-information">
+            <img src="https://bit.ly/3sPotwB" className="brand-image" alt="" />
+            <span>eileen moore</span>
+          </div>
+        </div>
+        <img
+          src="https://bit.ly/3hLgI4p"
+          alt="Slide one"
+          className="d-block w-100 image-1"
+        />
       </div>
-      <img
-        class="d-block w-100"
-        src="https://bit.ly/361ra56"
-        alt="First slide"
-      />
     </div>
   );
 };

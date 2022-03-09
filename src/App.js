@@ -1,6 +1,6 @@
 import "./App.css";
 import Hero from "./Hero";
-import DescriptionOne from "./DescriptionOne";
+import PhotoCarousel from "./PhotoCarousel";
 import Discovery from "./Discovery";
 import AboutUs from "./AboutUs";
 import AboutNumbers from "./AboutNumbers";
@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Hero />
-      <DescriptionOne title="blue heron homes" />
+      <PhotoCarousel />
       <Discovery />
       <AboutUs title="who is blue heron?" />
       <AboutNumbers />

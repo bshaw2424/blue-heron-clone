@@ -1,6 +1,5 @@
 import React from "react";
 import Communities from "./Communities";
-import Description from "./DescriptionOne";
 
 const Hero = () => {
   return (
