@@ -76,18 +76,29 @@ const Navigation = () => {
                     ></polygon>
                   </g>
                 </g>
-              </svg>{" "}
+              </svg>
             </div>
           </a>
         </div>
         <ul>
-          <li className="nav-item nav-item1">communities</li>
-          <li className="nav-item nav-item2">custom</li>
-          <li className="nav-item nav-item3">lifestyles</li>
-          <li className="nav-item nav-item4">portfolio</li>
-          <li className="nav-item nav-item5">about</li>
-          <li className="nav-item nav-item6">contact us</li>
-          <li>insert search glass here</li>
+          <li className="nav-item nav-item-1">communities</li>
+          <li className="nav-item nav-item-2">custom</li>
+          <li className="nav-item nav-item-3">lifestyles</li>
+          <li className="nav-item nav-item-4">portfolio</li>
+          <li className="nav-item nav-item-5">about</li>
+          <li className="nav-item btn nav-item-6">contact us</li>
+          <li className="nav-item nav-item-7">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </li>
         </ul>
       </div>
     </nav>

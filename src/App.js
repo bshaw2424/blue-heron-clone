@@ -1,4 +1,5 @@
 import "./App.css";
+import Navigation from "./Navigation";
 import Hero from "./Hero";
 import PhotoCarousel from "./PhotoCarousel";
 import Discovery from "./Discovery";
@@ -7,10 +8,13 @@ import AboutNumbers from "./AboutNumbers";
 import VisualLook from "./VisualLook";
 import Quote from "./Quote";
 import Links from "./Links";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div>
+      <Navigation />
       <Hero />
       <PhotoCarousel />
       <Discovery />
@@ -19,6 +23,8 @@ function App() {
       <VisualLook />
       <Quote />
       <Links />
+      <Contact />
+      <Footer />
     </div>
   );
 }
