@@ -81,12 +81,24 @@ const Navigation = () => {
           </a>
         </div>
         <ul>
-          <li className="nav-item nav-item-1">communities</li>
-          <li className="nav-item nav-item-2">custom</li>
-          <li className="nav-item nav-item-3">lifestyles</li>
-          <li className="nav-item nav-item-4">portfolio</li>
-          <li className="nav-item nav-item-5">about</li>
-          <li className="nav-item btn nav-item-6">contact us</li>
+          <li className="nav-item nav-item-1">
+            <a href="#">communities</a>
+          </li>
+          <li className="nav-item nav-item-2">
+            <a href="#">custom</a>
+          </li>
+          <li className="nav-item nav-item-3">
+            <a href="#">lifestyles</a>
+          </li>
+          <li className="nav-item nav-item-4">
+            <a href="#">portfolio</a>
+          </li>
+          <li className="nav-item nav-item-5">
+            <a href="#">about</a>
+          </li>
+          <li className="nav-item btn nav-item-6">
+            <a href="#">contact us</a>
+          </li>
           <li className="nav-item nav-item-7">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -18,6 +18,8 @@
 }
 .nav_logo {
   align-self: center;
+  height: 2rem;
+  width: 2rem;
 }
 .nav ul {
   display: flex;
@@ -27,18 +29,31 @@
 .nav ul li {
   list-style: none;
   margin-right: 2rem;
-  color: #333;
+  color: #3b3b3b;
   text-transform: capitalize;
 }
 
 .nav-item {
   margin-right: 2rem;
 }
+.nav-item:nth-of-type(6) {
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+}
+.nav-item:nth-of-type(6):hover {
+  background: #333;
+  color: white;
+}
+.nav-item:nth-of-type(6) a:hover {
+  color: white;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+}
 .nav_logo {
   width: 14rem;
-}
-.nav-item-6 {
-  border: 1px solid white;
 }
 
 /* end of navigation */
@@ -229,6 +244,10 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+.image-overlay:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
 .discovery-properties li img {
   width: 100%;
   height: 100%;
@@ -349,15 +368,18 @@
 }
 
 /* quote section */
-.quote-section {
-}
-.quote-slide-2 {
-  display: none;
+.quote-slide {
+  min-height: 100%;
 }
 .carousel-item .slide-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.slide-container {
+  outline: 4px solid blue;
+  height: 100%;
+}
+
 .slide-container div .slide-title {
   display: inline-block;
   margin-bottom: 1rem;
@@ -367,8 +389,12 @@
   color: #9b9b9b;
   font-weight: 500;
 }
-
+.slide-container .d-block {
+  height: 100%;
+  display: none;
+}
 .slide-container div {
+  height: 100%;
   align-items: center;
   padding: 6rem 0 4rem 12rem;
 }
@@ -407,6 +433,7 @@
   justify-content: space-evenly;
   height: 14rem;
   background-color: #f8f8f8;
+  margin-bottom: 0;
 }
 .community-link:not(:last-child) {
   border-right: 1px solid #e4e4e4;
@@ -449,14 +476,25 @@
 /* contact-section */
 .contact-section {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .contact-section div {
-  padding: 2.5rem 0;
-}
-.contact-section div:not(.contact-section div:first-child) {
+  padding: 0 0 2.5rem 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
+}
+.contact-section div:first-child {
+  background: tan;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section div:first-child h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 .contact-section .contact-title {
   margin-bottom: 2rem;
@@ -469,6 +507,11 @@
   color: #3b3b3b;
   text-decoration: none;
   margin-bottom: 1rem;
+}
+.contact-section div a:hover {
+  border-left: 5px solid #8ac0de;
+  padding-left: 8px;
+  transition: all 0.3s;
 }
 .contact-section div svg {
   transform: translateX(100%);

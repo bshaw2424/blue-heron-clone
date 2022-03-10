@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Discovery = () => {
   return (
     <section className="discovery-section">
       <div className="discovery-container">
         <ul className="discovery-properties">
-          <li>
+          <li className="d-properties d-properties-1">
             <img src="https://bit.ly/3Kr2KBe" alt="" />
             <a className="image-overlay" href="">
               <div>
@@ -14,16 +14,16 @@ const Discovery = () => {
               </div>
             </a>
           </li>
-          <li>
+          <li className="d-properties d-properties-2">
             <img src="https://bit.ly/3hJiUtr" alt="" />
             <a className="image-overlay" href="">
               <div>
                 <h2>bh nexus</h2>
-                <span>Communities designed for your vision.</span>{" "}
+                <span>Communities designed for your vision.</span>
               </div>
             </a>
           </li>
-          <li>
+          <li className="d-properties d-properties-3">
             <img src="https://bit.ly/3vRnqhA" alt="" />
             <a className="image-overlay" href="">
               <div>

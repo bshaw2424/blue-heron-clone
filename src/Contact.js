@@ -7,8 +7,7 @@ import Brand from "./Brand";
 const Contact = () => {
   return (
     <section className="contact-section">
-      <Brand />
-      <PhoneContact title="contact" phone="123 456-7890" request="request" />
+      <PhoneContact title="contact" phone="123 456-7890" />
       <Learn
         title="learn more"
         link1="why blue heron"

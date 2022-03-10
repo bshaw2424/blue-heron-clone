@@ -15,7 +15,7 @@ const VisualLook = () => {
           type="video/mp4"
           poster="https://bit.ly/3Kp1a2D"
         >
-          <source src="https://bit.ly/3tyAyFG" />
+          <source src="https://bit.ly/3Ct2NJQ" />
         </video>
       </div>
     </section>

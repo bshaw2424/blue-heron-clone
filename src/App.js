@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Mobile.css";
 import Navigation from "./Navigation";
 import Hero from "./Hero";
 import PhotoCarousel from "./PhotoCarousel";
@@ -13,7 +14,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
+    <main id="main-container">
       <Navigation />
       <Hero />
       <PhotoCarousel />
@@ -25,7 +26,7 @@ function App() {
       <Links />
       <Contact />
       <Footer />
-    </div>
+    </main>
   );
 }
 
