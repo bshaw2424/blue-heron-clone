@@ -485,7 +485,7 @@
   flex-direction: column;
 }
 .contact-section div:first-child {
-  background: tan;
+  background: rgba(0, 0, 0, 0.8);
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -495,6 +495,10 @@
 .contact-section div:first-child h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+.contact-section div:first-child h2,
+.contact-section div:first-child span {
+  color: white;
 }
 .contact-section .contact-title {
   margin-bottom: 2rem;
