@@ -3,47 +3,48 @@
   .nav {
     padding: 0;
     height: 5rem;
-  }
-  .nav_container {
-    min-height: 100%;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: yellow;
-  }
-  .nav_logo {
-    height: 0;
-  }
-  .nav_logo a div {
-    border: 1px solid blue;
-    min-height: 100%;
-  }
-  .nav_logo a div svg {
-    height: 100%;
-    width: 11.5rem;
-  }
-  .nav ul {
-    margin-bottom: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    display: none;
-  }
-  .nav-item:nth-of-type(6) {
-    display: inline-block;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: orange;
-    color: white;
-    border-radius: 0;
-    outline: none;
-    border: none;
+
+    .nav_container {
+      min-height: 100%;
+      width: 100%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: yellow;
+      .nav_logo {
+        height: 0;
+        div {
+          min-height: 100%;
+          svg {
+            height: 100%;
+            width: 11.5rem;
+          }
+        }
+      }
+    }
+
+    ul {
+      margin-bottom: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      display: none;
+      &:nth-of-type(6) {
+        display: inline-block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: orange;
+        color: white;
+        border-radius: 0;
+        outline: none;
+        border: none;
+      }
+    }
   }
   /* hero section */
   .hero,
@@ -52,24 +53,26 @@
   .hero_overlay {
     height: 680px;
   }
-  .hero_overlay {
-    padding-top: 0;
-    top: 0;
-    bottom: 0;
+  .hero {
+    .hero_overlay {
+      padding-top: 0;
+      top: 5rem;
+      bottom: 0;
+      height: 600px;
+      .hero_overlay--heading {
+        min-width: 100%;
+        margin: 8rem 0 0 0;
+        padding: 0 4rem;
+        line-height: 4.5rem;
+        a {
+          margin-bottom: 3rem;
+        }
+        p {
+          min-width: 100%;
+        }
+      }
+    }
   }
-  .hero_overlay--heading {
-    min-width: 100%;
-    margin: 0 0 0 0;
-    padding: 0 2rem;
-    line-height: 4.5rem;
-  }
-  .hero_overlay--heading a {
-    margin-bottom: 3rem;
-  }
-  .hero_overlay--heading p {
-    min-width: 100%;
-  }
-
   /* communities section */
   .communities {
     margin: 0;

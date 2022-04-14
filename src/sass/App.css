@@ -1045,7 +1045,7 @@
     padding: 0;
     height: 5rem;
   }
-  .nav_container {
+  .nav .nav_container {
     min-height: 100%;
     width: 100%;
     padding: 0;
@@ -1060,14 +1060,13 @@
             justify-content: center;
     background: yellow;
   }
-  .nav_logo {
+  .nav .nav_container .nav_logo {
     height: 0;
   }
-  .nav_logo a div {
-    border: 1px solid blue;
+  .nav .nav_container .nav_logo div {
     min-height: 100%;
   }
-  .nav_logo a div svg {
+  .nav .nav_container .nav_logo div svg {
     height: 100%;
     width: 11.5rem;
   }
@@ -1084,7 +1083,7 @@
     background-color: white;
     display: none;
   }
-  .nav-item:nth-of-type(6) {
+  .nav ul:nth-of-type(6) {
     display: inline-block;
     position: fixed;
     bottom: 0;
@@ -1104,21 +1103,22 @@
   .hero_overlay {
     height: 680px;
   }
-  .hero_overlay {
+  .hero .hero_overlay {
     padding-top: 0;
-    top: 0;
+    top: 5rem;
     bottom: 0;
+    height: 600px;
   }
-  .hero_overlay--heading {
+  .hero .hero_overlay .hero_overlay--heading {
     min-width: 100%;
-    margin: 0 0 0 0;
-    padding: 0 2rem;
+    margin: 8rem 0 0 0;
+    padding: 0 4rem;
     line-height: 4.5rem;
   }
-  .hero_overlay--heading a {
+  .hero .hero_overlay .hero_overlay--heading a {
     margin-bottom: 3rem;
   }
-  .hero_overlay--heading p {
+  .hero .hero_overlay .hero_overlay--heading p {
     min-width: 100%;
   }
   /* communities section */
