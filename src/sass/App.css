@@ -141,6 +141,71 @@
   font-family: "Roboto", sans-serif;
 }
 
+.discovery-properties {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  height: 65vh;
+}
+
+.discovery-properties li {
+  list-style: none;
+  position: relative;
+}
+
+.discovery-properties li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.discovery-properties li .image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discovery-properties li .image-overlay:hover {
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.discovery-properties li .image-overlay div {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.discovery-properties li .image-overlay div h2,
+.discovery-properties li .image-overlay div span {
+  color: white;
+}
+
+.discovery-properties li .image-overlay div span {
+  display: inline-block;
+  font-size: 1.5rem;
+  max-width: 70%;
+  font-family: "Roboto", sans-serif;
+}
+
+.discovery-properties li .image-overlay div h2 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 .hero {
   height: 100vh;
 }
