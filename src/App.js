@@ -1,5 +1,4 @@
-import "./App.css";
-import "./Mobile.css";
+import "./sass/App.scss";
 import Navigation from "./Navigation";
 import Hero from "./Hero";
 import PhotoCarousel from "./PhotoCarousel";

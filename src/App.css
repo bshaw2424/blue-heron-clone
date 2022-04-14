@@ -59,7 +59,7 @@
 /* end of navigation */
 
 /* hero section */
-.hero {
+/* .hero {
   height: 100vh;
 }
 .hero img {
@@ -118,10 +118,10 @@
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 /* communities section */
-.communities {
+/* .communities {
   width: 80%;
   margin: 0 10%;
   position: absolute;
@@ -175,9 +175,9 @@
 }
 .property4 a {
   width: 75%;
-}
+} */
 /* description section */
-.description-section {
+/* .description-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 65px 0;
@@ -220,12 +220,12 @@
 .carousel-control-prev-icon {
   height: 4rem;
   width: 4rem;
-}
+} */
 
 /* discovery section */
 /* .discovery-section {
 } */
-.discovery-properties {
+/* .discovery-properties {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0;
@@ -275,10 +275,10 @@
   font-size: 1.5rem;
   max-width: 70%;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 /* about us */
-.about-section {
+/* .about-section {
   padding: 65px 0;
 }
 .about-container {
@@ -316,9 +316,9 @@
   width: 45%;
   font-weight: 400;
   color: #2a2b2a;
-}
+} */
 /* about numbers section */
-.inner-numbers {
+/* .inner-numbers {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: stretch;
@@ -345,9 +345,9 @@
   color: #0f2c4e;
   font-size: 5rem;
   font-weight: 300;
-}
+} */
 /* visual look section */
-.promotion-section {
+/* .promotion-section {
   background: white;
   height: 70vh;
   margin-top: 65px;
@@ -365,10 +365,10 @@
   overflow: hidden;
   background-size: cover;
   object-fit: cover;
-}
+} */
 
 /* quote section */
-.quote-slide {
+/* .quote-slide {
   min-height: 100%;
 }
 .carousel-item .slide-container {
@@ -376,7 +376,6 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .slide-container {
-  outline: 4px solid blue;
   height: 100%;
 }
 
@@ -426,9 +425,9 @@
   display: inline-block;
   font-size: 1.2rem;
   text-transform: capitalize;
-}
+} */
 /* links section */
-.link-container {
+/* .link-container {
   display: flex;
   justify-content: space-evenly;
   height: 14rem;
@@ -471,10 +470,10 @@
 .community-link-3 img {
   height: 5rem;
   width: 5rem;
-}
+} */
 
 /* contact-section */
-.contact-section {
+/* .contact-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -525,10 +524,10 @@
 .contact-section .contact-title {
   font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
-}
+} */
 
 /* footer section */
-.footer {
+/* .footer {
   height: 8rem;
   border-top: 1px solid #e4e4e4;
 }
@@ -554,4 +553,4 @@
 .footer-button {
   background-color: #c38f1b;
   color: white;
-}
+} */

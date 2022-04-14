@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = ({ title }) => {
   return (
-    <div>
+    <>
       <div className="description-container">
         <h2>{title}</h2>
         <div className="description description-1">
@@ -16,7 +16,7 @@ const Description = ({ title }) => {
           Home.
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

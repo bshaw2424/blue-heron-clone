@@ -4,7 +4,7 @@ import Communities from "./Communities";
 const Hero = () => {
   return (
     <section className="hero">
-      <img src="https://bit.ly/3sK8VKG" alt="" />
+      <img src="https://bit.ly/3sK8VKG" alt="main-image" />
       <div className="hero_overlay">
         <div className="hero_overlay--heading">
           <h1>blue heron</h1>
