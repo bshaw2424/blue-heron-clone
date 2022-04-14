@@ -78,22 +78,27 @@
     margin: 0;
     height: 1rem;
     width: 95%;
+    .communities > .container {
+      margin-bottom: 6rem;
+    }
+    .ul {
+      li {
+        &:not(:last-child) {
+          display: none;
+        }
+        .property4 {
+          a {
+            margin: 0 auto;
+            width: 100%;
+            padding: 0.75rem;
+          }
+        }
+        a span:last-child {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
-  .communities > .container {
-    margin-bottom: 6rem;
-  }
-  .communities ul li:not(:last-child) {
-    display: none;
-  }
-  .property4 a {
-    margin: 0 auto;
-    width: 100%;
-    padding: 0.75rem;
-  }
-  .communities ul li a span:last-child {
-    font-size: 1.2rem;
-  }
-
   /* description section */
   .description-section {
     grid-template-columns: repeat(1, 1fr);
@@ -123,59 +128,61 @@
   }
 
   /* discovery properties */
-  .discovery-container .discovery-properties {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .discovery-properties {
-    height: 900px;
+  .discovery-container {
+    .discovery-properties {
+      grid-template-columns: repeat(3, 1fr);
+      height: 400px;
+    }
   }
 
   /* about section */
-  .about-container {
-    flex-direction: column;
-  }
-  .about-title {
-    letter-spacing: 0.3rem;
-    margin-bottom: 2rem;
-  }
-  .about-container p {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .about-secondary-title {
-    font-size: 2.2rem;
+  .container {
+    .about-container {
+      flex-direction: row;
+
+      .about-title {
+        letter-spacing: 0.3rem;
+        margin-bottom: 2rem;
+      }
+      p {
+        width: 100%;
+      }
+      .about-secondary-title {
+        font-size: 2.2rem;
+      }
+    }
   }
 
   /* numbers section */
   .numbers-section {
     width: 85%;
     margin: 0 auto;
-  }
-  .numbers-section .container {
-    padding: 0;
-  }
-  .inner-numbers {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding: 0;
-  }
-  .inner-numbers li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .unique-number-2 {
-    font-size: 3.5rem;
-  }
-  .inner-numbers span {
-    text-align: center;
-  }
 
-  /* promotional section */
-  .promotion-section {
-    height: 15rem;
-  }
+    .numbers-section .container {
+      padding: 0;
+    }
+    .inner-numbers {
+      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      padding: 0;
+      span {
+        text-align: center;
+      }
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .unique-number-2 {
+          font-size: 3.5rem;
+        }
+      }
+    }
 
+    /* promotional section */
+    .promotion-section {
+      height: 15rem;
+    }
+  }
   /* quote section */
 
   .quote-section .carousel-inner {
