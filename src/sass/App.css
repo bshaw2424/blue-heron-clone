@@ -1,3 +1,146 @@
+.communities {
+  width: 80%;
+  margin: 0 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.communities ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.communities ul li {
+  list-style: none;
+}
+
+.communities ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.communities ul li a span:first-child {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  margin-top: 2.5rem;
+}
+
+.communities ul li a span:last-child {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding-top: 0.5rem;
+}
+
+.communities ul li:last-child {
+  padding: 0;
+}
+
+.communities ul .property4 {
+  background: #0f2c4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15%;
+}
+
+.communities ul .property4 a {
+  width: 75%;
+}
+
+.description-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 65px 0;
+}
+
+.description-section .carousel-inner {
+  height: 65vh;
+}
+
+.description-section .carousel-inner .carousel-item {
+  height: 100%;
+}
+
+.description-section .carousel-control-prev,
+.description-section .carousel-control-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description-section .carousel-control-next-icon,
+.description-section .carousel-control-prev-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.description-container {
+  margin: 0 10%;
+  padding: 2rem 10% 0;
+}
+
+.description-container h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.description-container .description-1 {
+  font-size: 2rem;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+
+.description-container .description-2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
 .hero {
   height: 100vh;
 }
