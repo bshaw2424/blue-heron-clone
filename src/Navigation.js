@@ -85,7 +85,7 @@ const Navigation = () => {
             <a href="#">communities</a>
           </li>
           <li className="nav-item nav-item-2">
-            <a href="#">custom</a>
+            <a href="#">customs</a>
           </li>
           <li className="nav-item nav-item-3">
             <a href="#">lifestyles</a>
