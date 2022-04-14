@@ -373,6 +373,48 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.footer {
+  height: 8rem;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer .container {
+  height: 100%;
+}
+
+.footer .footer-item-5 {
+  padding: 0.75rem;
+  border-radius: 0.6rem;
+  background-color: #c38f1b;
+  color: white;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer div .info-links {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer div .info-links a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  color: #3b3b3b;
+  margin-right: 1.5rem;
+}
+
 .hero {
   height: 100vh;
 }
