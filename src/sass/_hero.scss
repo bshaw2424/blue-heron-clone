@@ -1,0 +1,63 @@
+.hero {
+  height: 100vh;
+
+  img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .hero_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 5rem;
+
+    .hero_overlay--heading {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      max-width: 65%;
+      margin: 7.5rem 0 0 10.5rem;
+      height: 35%;
+      &:not(:nth-child(3)) {
+        display: flex;
+        flex-direction: column;
+      }
+
+      p {
+        font-size: calc(3.5rem + 1.25vw);
+        margin: 1rem 0;
+        max-width: 60%;
+        font-weight: 100;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        letter-spacing: 0.2rem;
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        color: white;
+        svg {
+          margin-right: 0.75rem;
+        }
+      }
+
+      h1 {
+        font-size: 0.9rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        color: white;
+      }
+    }
+  }
+}
