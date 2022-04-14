@@ -1,0 +1,28 @@
+.inner-numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: stretch;
+  align-items: center;
+  width: 100%;
+  li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    .unique-number-1,
+    .unique-number-2 {
+      font-family: "Montserrat", sans-serif;
+    }
+    .unique-number-1 {
+      font-size: 1rem;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      color: #767676;
+      font-weight: 400;
+    }
+    .unique-number-2 {
+      color: #0f2c4e;
+      font-size: 5rem;
+      font-weight: 300;
+    }
+  }
+}
