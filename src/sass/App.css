@@ -451,4 +451,26 @@
 .nav ul .nav-item:nth-of-type(6):hover a:hover {
   color: white;
 }
+
+.promotion-section {
+  background: white;
+  height: 70vh;
+  margin-top: 65px;
+}
+
+.promotion-section div {
+  height: 100%;
+  position: relative;
+}
+
+.promotion-section div video,
+.promotion-section div video source {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=App.css.map */

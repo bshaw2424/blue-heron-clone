@@ -1,0 +1,20 @@
+.promotion-section {
+  background: white;
+  height: 70vh;
+  margin-top: 65px;
+
+  div {
+    height: 100%;
+    position: relative;
+
+    video,
+    video source {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      background-size: cover;
+      object-fit: cover;
+    }
+  }
+}
