@@ -78,22 +78,18 @@
     margin: 0;
     height: 1rem;
     width: 95%;
-    .communities > .container {
-      margin-bottom: 6rem;
-    }
-    .ul {
+
+    ul {
       li {
         &:not(:last-child) {
-          display: none;
+          visibility: hidden;
         }
-        .property4 {
-          a {
-            margin: 0 auto;
-            width: 100%;
-            padding: 0.75rem;
-          }
-        }
-        a span:last-child {
+      }
+      .property4 {
+        a {
+          margin: 0 auto;
+          width: 100%;
+          padding: 1rem;
           font-size: 1.2rem;
         }
       }
@@ -139,7 +135,6 @@
   .container {
     .about-container {
       flex-direction: row;
-
       .about-title {
         letter-spacing: 0.3rem;
         margin-bottom: 2rem;
