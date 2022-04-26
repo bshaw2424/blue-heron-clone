@@ -244,11 +244,10 @@
       }
       &:nth-of-type(3) {
         padding-top: 1rem;
+        .contact-title {
+          font-size: 1.5rem;
+        }
       }
-    }
-    .contact-title {
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
     }
   }
   /* footer section */

@@ -6,17 +6,40 @@
     ul {
       li {
         text-decoration: none;
+        &:hover:not(:nth-of-type(6)) {
+          border-top: 3px solid #0693e3;
+          padding: 0;
+        }
         a {
           text-decoration: none;
           color: #fff;
         }
         &:nth-of-type(6) {
-          background: orange;
+          background: transparent;
           outline: none;
-          border: none;
+          border: 1px solid #fff;
+          &:hover {
+            background-color: #fff;
+            color: #333;
+            pointer-events: none;
+          }
           a {
             color: #fff;
+            pointer-events: none;
           }
+        }
+        &:nth-of-type(7) {
+          &:hover {
+            border: 1px solid #0693e3;
+            padding: 15px 20px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            display: inline-block;
+          }
+        }
+        svg {
+          color: #fff;
         }
       }
     }
@@ -71,6 +94,15 @@
       img {
         height: 100%;
       }
+    }
+  }
+}
+
+// contact-section
+.contact-section {
+  div:nth-of-type(3) {
+    .contact-title {
+      margin-top: 2rem;
     }
   }
 }
