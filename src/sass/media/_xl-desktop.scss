@@ -1,0 +1,76 @@
+// navigation
+.nav {
+  background: transparent;
+  box-shadow: none;
+  .nav_container {
+    ul {
+      li {
+        text-decoration: none;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        &:nth-of-type(6) {
+          background: orange;
+          outline: none;
+          border: none;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+// hero section
+.hero {
+  .hero_overlay {
+    .hero_overlay--heading {
+      width: 100%;
+      max-width: 1100px;
+      margin: 8rem auto;
+      h1 {
+        letter-spacing: 3px;
+      }
+    }
+  }
+}
+// communities
+.communities {
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  ul {
+    .property4 {
+      width: 25%;
+    }
+    li {
+      margin-right: 3rem;
+    }
+  }
+}
+
+// about section
+.about-section {
+  .about-title {
+    letter-spacing: 3px;
+  }
+}
+
+// description section
+.description-section {
+  margin-top: 2rem;
+  .description-container {
+    h2 {
+      letter-spacing: 3px;
+    }
+  }
+  .carousel-inner {
+    div {
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
